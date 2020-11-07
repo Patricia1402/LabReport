@@ -1,0 +1,17 @@
+Ques2 Write a simple two players dice game. Each player will roll the dice twice and the player with the highest score wins the game. You need to follow the special rules as stated below.
+
+Problem Description
+
+How to prompt p1 to roll dice1 and dice2?
+Solution : Print instruction to p1 to roll dice1 and dice2 using syntax System.out.println(parameter)
+How to prompt p2 to roll dice1 and dice2?
+Solution : Print instruction to p2 to roll dice1 and dice2 using syntax System.out.println(parameter) after p1 has rolled
+How to play for 2 rounds?
+Solution : Generate random number using r.nextInt(7) two times
+How to program the rules below?
+if either p1 or p2 rolls 6 on both, assign no score, allow the player to retake their turn if either p1 or p2 rolls 1 on both, assign no score, multiply current score if either p1 or p2 rolls odd number on both, but not 1, assign no score, minus -5 from current score
+Solution : Use do-while statements, if-else statements, relational operator,==, arithmetic operator,*,% and -, and logical operators,&& to program the rules below.
+How to determine the winner?
+Solution : Use if statements and relational operators, < and >, to compare player1result with player2result. The player with higher result is the winner.
+How to display the winner?
+Solution  : Print message of winner winning using syntax System.out.println(parameter)
