@@ -1,0 +1,18 @@
+
+
+1. How to prompt user to input 3 integers with 2 operands in between?
+   Solution : Print instruction to user to input 3 integers by using syntax System.out.println(parameter).
+2. How to assign mathematical functions onto operators X,D,M,A,S?
+   Solution : Use nested if statements and relational operator,== to assign mathematical functions onto operators X,D,M,A,S
+3. How to calculate input by user?
+   Solution : Use arithmetic operators +,-,*,/ ti calculate input by user
+4. How to display the answer?
+   Solution : Use syntax System.out.println(paramater)to print answer and + operator to call variables
+5. How to implement multiple possibilities?
+   Solution : Use nested if statements to implement multiple possibilities
+6. How to reduce number of if-else statements?
+   Solution : Implement code using switch statements
+7. How to handle mixed case inputs?
+   Solution : Use the equalsIgnoreCase() method to ignore case of inputs.
+
+
