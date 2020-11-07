@@ -1,0 +1,20 @@
+Ques3 Cramer’s rule is used to solve the linear equations. ax+by=e, cx+dy=f; x = (ed-bf)/(ad-bc) y=(af-ec)/(ad-bc)
+
+Write a program that ask the user to enter two input line in the format of ax+by=e and cx+dy=f. Display the result of x and y. If ad – bc is equal to 0. Display "The equation has no solution". Given the value of a, b, c, d is (1-9).
+
+Problem Description
+
+How to prompt user to input 2 lines of linear equations in the form of "ax + by = e"?
+Solution : Print instruction to user to input 2 lines of linear equation in the form of "ax + by = e" using syntax System.out.print(parameter)
+How to solve simultaneous equation from line 1 and line 2?
+Solution : Use if statement and arithmetic operators, *,- and /, to solve simultaneous equation based on formula and value of input.
+How to handle case if ad - bc = 0?
+Solution : Print message that indicates there is no solution found using syntax System.out.print(parameter)
+How to strip value from input string?
+Solution : Use the split method public String[ ] split(String regex) to strip value from input string.
+How to convert String to integer?
+Solution : Use Integer. parseInt(arrLinen[n]) method to convert String to integer
+What if input is x+y=a?
+Solution : Coding will not run because form is not followed
+How to display answer x and y?
+Solution : Print answer using syntax System.out.print(parameter) and + to call value x and y
